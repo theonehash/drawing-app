@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; /* Add this line to make the welcome message and canvas stack vertically */
+    justify-content: flex-start; /* Align items to the top of the container */
+    align-items: center;
+    min-height: 100vh; /* Ensure the body covers the entire viewport height */
+    background-image: linear-gradient(135deg, #FF7F50, #1E90FF);
+  }
+  
+  h1 {
+    margin: 20px 0; /* Add some margin to the top of the page */
+  }
+  
+  canvas {
+    border: 2px solid #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: crosshair;
+  }
+  
