@@ -7,22 +7,28 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a href="https://funny-hamster-5b8896.netlify.app/" class="cta-btn" style="position: fixed; top: 0; left: 0; margin: 10px;">Go Back</a>
+  <a href="https://funny-hamster-5b8896.netlify.app/" class="cta-btn">Go Back</a>
+
   <h1>Welcome to My Drawing App</h1>
-  <canvas id="drawing-canvas" width="800" height="600"></canvas>
 
-  <!-- Add buttons for changing brush size -->
-  <div class="brush-sizes">
-    <button onclick="changeBrushSize(3)">Small Brush</button>
-    <button onclick="changeBrushSize(8)">Medium Brush</button>
-    <button onclick="changeBrushSize(15)">Large Brush</button>
-  </div>
+  <canvas id="drawing-canvas"></canvas>
 
-  <!-- Add buttons for changing drawing shape fcgfgf-->
-  <div class="shapes">
-    <button onclick="setPen()">Pen</button>
-    <button onclick="setLine()">Line</button>
-    <button onclick="setCircle()">Circle</button>
+  <div class="controls">
+    <div class="brush-sizes">
+      <p>Brush Size:</p>
+      <button onclick="changeBrushSize(3)">Small</button>
+      <button onclick="changeBrushSize(8)">Medium</button>
+      <button onclick="changeBrushSize(15)">Large</button>
+    </div>
+
+    <div class="shapes">
+      <p>Shapes:</p>
+      <button onclick="setPen()">Pen</button>
+      <button onclick="setLine()">Line</button>
+      <button onclick="setCircle()">Circle</button>
+    </div>
+
+    <button id="clear-canvas">Clear Canvas</button>
   </div>
 
   <script src="script.js"></script>
