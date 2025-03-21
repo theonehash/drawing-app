@@ -1,0 +1,53 @@
+# Speed Typing Game
+
+A simple and interactive Speed Typing Game built using HTML, CSS, and JavaScript. Test your typing speed by typing the given words as fast and accurately as possible!
+
+## Features
+
+- Displays random words for typing.
+- Timer to track typing speed.
+- Score tracking based on correct words typed.
+- Responsive and user-friendly UI.
+
+## Technologies Used
+
+- **HTML**: Structure of the game.
+- **CSS**: Styling for a visually appealing interface.
+- **JavaScript**: Game logic and interactivity.
+
+## How to Play
+
+1. Start the game by clicking the 'Start' button.
+2. A word will appear on the screen.
+3. Type the word in the input field and press 'Enter'.
+4. Each correct word increases your score.
+5. The timer tracks your speed; try to type as many words as possible before time runs out.
+6. At the end, your final score will be displayed.
+
+## Installation
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/theonehash/drawing-app.git
+   ```
+2. Open the `index.html` file in a web browser.
+
+## Future Improvements
+
+- Add difficulty levels.
+- Implement a leaderboard system.
+- Include more word categories.
+- Add sound effects and animations.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit a pull request with improvements or bug fixes.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Enjoy typing and challenge yourself to improve your speed! 🚀
+
